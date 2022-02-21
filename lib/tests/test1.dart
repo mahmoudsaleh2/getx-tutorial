@@ -20,8 +20,7 @@ class Test1 extends StatelessWidget {
 
              //  Get.to(Test1());
               Get.toNamed('/test2');
-              Get.offNamed(page);
-              Get.offAllNamed(newRouteName);
+
 
               },
               child: Text('Move'),
